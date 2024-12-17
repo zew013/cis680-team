@@ -7,6 +7,7 @@ This project enhances the **Segment Anything Model (SAM)** for low-resolution im
 1. **Low-Rank Adaptation (LoRA)** for efficient fine-tuning, reducing computational costs while maintaining segmentation performance.
 2. **Normalized Cuts (NCut)** for feature visualization, diagnosing performance issues across different resolutions.
 
+These improvements help SAM adapt to real-world applications where low-resolution inputs are common, such as edge devices and bandwidth-limited scenarios.
 
 ---
 
