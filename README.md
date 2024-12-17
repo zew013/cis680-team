@@ -28,3 +28,7 @@ These improvements help SAM adapt to real-world applications where low-resolutio
 
 ---
 Full_Segment_Anything: modified SAM directory that could take customerized image input sizes. Modification done on trained embeddings through interpolation (down-sampling).
+
+ncut_pytorch: modified ncut forked from https://github.com/huzeyann/ncut_pytorch that could take intermediate results from our modified models.
+
+segment_anything: Meta implmentation of segment anything https://github.com/facebookresearch/segment-anything
