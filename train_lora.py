@@ -149,7 +149,7 @@ def show_image(image, bbox, masks, num_rows=12, num_cols=12):
     plt.show()
 
 
-from finetune_v3 import *
+from finetune_lora import *
 import random
 from torch.utils.data import Subset
 
