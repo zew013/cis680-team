@@ -26,3 +26,4 @@ This project enhances the **Segment Anything Model (SAM)** for low-resolution im
   - **Post-Processing**: Refines segmentation masks by removing artifacts and duplicate regions.
 
 ---
+Full_Segment_Anything: modified SAM directory that could take customerized image input sizes. Modification done on trained embeddings through interpolation (down-sampling).
