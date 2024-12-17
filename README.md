@@ -37,3 +37,6 @@ segment_anything: Meta implmentation of segment anything https://github.com/face
 
 This script fine-tunes the **Segment Anything Model (SAM)** using **Low-Rank Adaptation (LoRA)** to improve segmentation on low-resolution images. It employs **PyTorch Lightning** for streamlined training, logging, and checkpointing. The script allows freezing specific model components (image encoder, prompt encoder, mask decoder) to optimize efficiency. The training process uses a combination of **Focal Loss**, **Dice Loss**, and **IoU Loss** to enhance mask prediction accuracy. During training, the script tracks IoU scores and losses, saving the best-performing model based on validation metrics.
 
+### **ncut.ipynby**
+All experiments using ncut to visualize different versions of SAM models. Could run all experiment in one click.
+
