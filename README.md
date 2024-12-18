@@ -44,3 +44,6 @@ This script resizes images and bounding boxes to a resolution of **256x256** and
 ### **ncut.ipynb**
 All experiments using ncut to visualize different versions of SAM models. Could run all experiment in one click.
 
+### **evaluation.ipynb**
+It includes visualization functions to display images, predicted masks, and bounding boxes, saving the results for documentation purposes. Additionally, it logs and plots training metrics such as IoU and loss curves, providing insights into the model's performance over time.
+
