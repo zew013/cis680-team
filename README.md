@@ -47,3 +47,7 @@ All experiments using ncut to visualize different versions of SAM models. Could 
 ### **evaluation.ipynb**
 It includes visualization functions to display images, predicted masks, and bounding boxes, saving the results for documentation purposes. Additionally, it logs and plots training metrics such as IoU and loss curves, providing insights into the model's performance over time.
 
+## How to Run
+
+For full model training, use train_v2.py; for LoRA-based fine-tuning, use train_lora.py. To visualize results using normalized cuts (NCut), open and run ncut.ipynb in a Jupyter Notebook environment. Ensure you have the SA-1B dataset and model checkpoints prepared and adjust the paths accordingly.
+
